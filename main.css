@@ -1,0 +1,166 @@
+p,h1,h2,h3,h4,h5, strong, a, ul{
+    font-family: 'Merriweather', serif;
+}
+a{
+    color: black;
+}
+.overflow{
+    overflow: hidden;
+}
+.col-sm-12{
+    padding: 0px !important;
+}
+.dropdown-menu{
+    z-index: 999;
+}
+.experience h2, .projects h2, .contact h2{
+    margin-top:0px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.profile{
+    margin-top: 50px;
+    background-image: url('https://i.imgur.com/d5KuF9H.jpg');
+    background-repeat: none;
+    background-size: cover;
+    height: 800px;
+    padding-top: 350px; 
+}
+@media screen and (min-width: 1440px){
+    .profile{
+        height: 1200px;
+    }
+}
+.profile h1{
+    text-align: right;
+    color: white;
+    font-size: 5em;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    padding-right: 90px;
+}
+@media screen and (max-width: 426px){
+    .profile h1{
+        font-size: 3em;
+        padding-right: 40px;
+    }
+}
+@media screen and (max-width: 376px){
+    .profile{
+        background-image: url('https://i.imgur.com/I6Xsws3.jpg');
+    }
+}
+.experience{
+    background-color: #DDDDDD;
+    padding-bottom: 50px;
+}
+.nwjobimg{
+    display: block;
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color:white;
+    padding: 30px 10px 10px 10px;
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pmjobimg{
+    display: block;
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color:white;
+    padding: 65px 10px 10px 10px;
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.jobimg{
+    display: block;
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color:white;
+    padding: 10px 10px 10px 10px;
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.school{
+    display: block;
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color:white;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fed{
+    display: block;
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color:white;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.newjob{
+    padding-top: 50px;
+}
+.projects{
+    padding-bottom: 50px;
+}
+.projectdescription{
+    padding-top: 20px;
+}
+.newprojectimg{
+    text-align: center;
+}
+.flashimg{
+    width: 100%;
+    max-height: 100%;
+}
+object{
+    width: 100%;
+    max-height: 100%;
+}
+.newproject{
+    padding-top: 50px;
+}
+@media screen and (max-width: 1396px){
+    #desktableau{
+        display: none;
+    }    
+}
+@media screen and (min-width: 1397px){
+    #mobtableau{
+        display: none;
+    }
+}
+.gamer, .sci, .flashimg{
+    border: 2px solid black;
+    padding: 5px;
+}
+#rutgerswebsite{
+    padding-bottom: 20px;
+}
+.footer{
+    background-color:#dddddd;  
+}
+
+.links ul{
+    list-style-type: none;
+}
+.contact{
+    text-align: center;
+}
+i{
+    vertical-align: -25%;
+    text-rendering: optimizeLegibility;
+
+}
+.copyright{
+    padding-top: 50px;
+    display: block;
+}
