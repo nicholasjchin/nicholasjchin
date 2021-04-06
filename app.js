@@ -52,8 +52,8 @@ function reset() {
     p2Score = 0;
     p1Display.textContent = 0;
     p2Display.textContent = 0;
-    p1Display.classList.remove('has-text-success', 'has-text-danger')
-    p2Display.classList.remove('has-text-success', 'has-text-danger')
+    p1Display.classList.remove('text-success', 'text-danger')
+    p2Display.classList.remove('text-success', 'text-danger')
     p1Button.disabled = false;
     p2Button.disabled = false;
 }
