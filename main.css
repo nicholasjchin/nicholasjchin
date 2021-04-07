@@ -144,8 +144,10 @@ object{
 }
 .score, .gamer, .sci, .flashimg{
     border: 2px solid black;
-    padding: 5px;
-  
+    padding: 5px; 
+}
+.card-footer{
+    padding: 5px 0px;
 }
 #rutgerswebsite{
     padding-bottom: 20px;
