@@ -138,7 +138,7 @@ object{
         display: none;
     }
 }
-.gamer, .sci, .flashimg{
+.score, .gamer, .sci, .flashimg{
     border: 2px solid black;
     padding: 5px;
 }
