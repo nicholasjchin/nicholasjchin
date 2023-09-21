@@ -17,6 +17,7 @@ $(document).ready(function () {
     var selectedOption = $("#team-select").val();
     var teamSelectorForm = $("#team-selector");
     var scoreDisplay = $("#score-display");
+    var scoreHeader = $(".team-header");
     var teamName = "";
 
     if (selectedOption == "team1") {
@@ -32,11 +33,11 @@ $(document).ready(function () {
     div1.addClass("left");
     div1.append(leftElement);
 
-    var div2 = $("<div>");
     var teamElement = $("<h1>");
     teamElement.text(teamName);
-    div2.append(teamElement);
+    scoreHeader.append(teamElement);
 
+    var div2 = $("<div>");
     var scoreElement = $("<h2>");
     scoreElement.addClass("score");
     scoreElement.text(0);
@@ -54,13 +55,3 @@ $(document).ready(function () {
     teamSelectorForm.hide();
   });
 });
-
-// $(".left")[0].on("click", function () {
-//   var score = $(".score");
-//   console.log(score);
-// });
-
-// $(".right")[0].on("click", function () {
-//   var score = $(".score");
-//   console.log(score);
-// });
