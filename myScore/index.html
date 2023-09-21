@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myScore</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div id="team-selector">
+        <h1 id="title">myScore: Volleyball</h1>
+        <div>
+            <label for="team-select">Choose a team:</label>
+
+            <select name="teams" id="team-select">
+                <option value="">Select team</option>
+                <option value="team1">Team 1</option>
+                <option value="team2">Team 2</option>
+            </select>
+            <button type="submit" id="team-select-btn">Submit</button>
+        </div>
+    </div>
+
+    <div id="score-display"></div>
+</body>
+
+</html>
