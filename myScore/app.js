@@ -4,12 +4,20 @@ $(document).ready(function () {
       var score = parseInt($(".score")[0].innerText);
 
       if (this.className == "left") {
-        score = score - 1;
+        if (score !== 0) {
+          score = score - 1;
+        }
         console.log(score);
       } else if (this.className == "right") {
         score++;
       }
       $(".score")[0].innerText = score;
+    }
+  });
+
+  $(".team-header").on("click", function () {
+    if ($(".score")[0].innerText) {
+      $(".score")[0].innerText = 0;
     }
   });
 
